@@ -2,9 +2,17 @@ import {useState} from "react";
 
 export default function FAQ() {
     const [isOpened, setIsOpened] = useState(false);
+    const [isOpenedF, setIsOpenedF] = useState(false);
+    const [isOpenedS, setIsOpenedS] = useState(false);
 
     function toggle() {
         setIsOpened(wasOpened => !wasOpened);
+    }
+    function toggle2() {
+        setIsOpenedF(wasOpened1 => !wasOpened1);
+    }
+    function toggle3() {
+        setIsOpenedS(wasOpened2 => !wasOpened2);
     }
     return (
         <div className="mt-10">
@@ -36,7 +44,7 @@ export default function FAQ() {
                 <div className="flex flex-col border-b-2 justify-center text-center space-y-5 pb-10">
                     <div className="flex justify-between space-x-3">
                         <h1 className="text-xl text-purple-600 text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h1>
-                        <button onClick={toggle}>
+                        <button onClick={toggle2}>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                  className=" w-10 h-10 lg:w-6 lg:h-6 text-purple-600">
                                 <path fill-rule="evenodd"
@@ -45,7 +53,7 @@ export default function FAQ() {
                             </svg>
                         </button>
                     </div>
-                    {isOpened && (
+                    {isOpenedF && (
                         <p className="text-base text-left text-gray-400">Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Cum elit, ullamcorper facilisis  tortor. <br />
                             A dui placerat turpis egestas gravida  varius. Adipiscing vel ridiculus integer morbi </p>
                     )}
@@ -54,7 +62,7 @@ export default function FAQ() {
                 <div className="flex flex-col border-b-2 justify-center text-center space-y-5 pb-10">
                     <div className="flex justify-between space-x-3">
                         <h1 className="text-xl text-purple-600 text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h1>
-                        <button onClick={toggle}>
+                        <button onClick={toggle3}>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                  className=" w-10 h-10 lg:w-6 lg:h-6 text-purple-600">
                                 <path fill-rule="evenodd"
@@ -63,7 +71,7 @@ export default function FAQ() {
                             </svg>
                         </button>
                     </div>
-                    {isOpened && (
+                    {isOpenedS && (
                         <p className="text-base text-left text-gray-400">Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Cum elit, ullamcorper facilisis  tortor. <br />
                             A dui placerat turpis egestas gravida  varius. Adipiscing vel ridiculus integer morbi </p>
                     )}
