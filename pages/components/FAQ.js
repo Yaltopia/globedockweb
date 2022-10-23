@@ -68,18 +68,12 @@ export default function FAQ() {
                             A dui placerat turpis egestas gravida  varius. Adipiscing vel ridiculus integer morbi </p>
                     )}
                 </div>
-
-
-
-
-
-
-
-
-
             </div>
 
 
         </div>
     )
 }
+
+
+
