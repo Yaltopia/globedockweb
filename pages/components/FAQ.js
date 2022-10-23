@@ -15,7 +15,7 @@ export default function FAQ() {
         setIsOpenedS(wasOpened2 => !wasOpened2);
     }
     return (
-        <div className="mt-10">
+        <div className="mt-10" id="faq">
             <div className="text-center mt-10m space-y-2">
                 <p className="text-sm">FAQ</p>
                 <h1 className="text-2xl lg:text-4xl text-purple-600">Frequently Asked Question</h1>

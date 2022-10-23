@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Image from "next/image";
 import Logo from "/public/GlobDock.png";
+import Link from "next/link";
 
 
 
@@ -11,13 +12,13 @@ function MobileNav({open, setOpen}) {
 
             </div>
             <div className="flex flex-col items-center text-center ml-4 bg-purple-50 -translate-x-5 w-full h-full">
-                <a className="text-xl font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a  className="text-xl font-medium my-4" href="#" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4" href="#faq" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     FAQ
                 </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4" href="#contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Contact Us
                 </a>
                 <button className="bg-gray-100 text-gray-900 py-3 px-10 text-xl font-normal my-4"  onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
@@ -49,13 +50,13 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex space-x-24 items-center justify-center">
-                    <a className="text-base text-gray-900 hover:text-purple-600">
+                    <a href="#" className="text-base text-gray-900 hover:text-purple-600">
                         Home
                     </a>
-                    <a className="text-base text-gray-900 hover:text-purple-600">
+                    <a href="#faq" className="text-base text-gray-900 hover:text-purple-600">
                         FAQ
                     </a>
-                    <a className="text-base text-gray-900 hover:text-purple-600" >
+                    <a href="#contact" className="text-base text-gray-900 hover:text-purple-600" >
                         Contact Us
                     </a>
 

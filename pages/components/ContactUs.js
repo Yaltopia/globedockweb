@@ -2,7 +2,7 @@ export default function ContactUs() {
     return (
         <div>
             <section className="text-gray-600 body-font relative mt-10">
-                <h1 className="text-4xl text-center text-purple-600">Contact Us</h1>
+                <h1 className="text-4xl text-center text-purple-600" id="contact">Contact Us</h1>
                 <p className="text-sm text-center mt-3">Please leave your note here.</p>
                 <div className="px-5 py-24 mx-10 flex sm:flex-nowrap flex-wrap">
                     <div
