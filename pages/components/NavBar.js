@@ -10,7 +10,7 @@ function MobileNav({open, setOpen}) {
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> {/*logo container*/}
 
             </div>
-            <div className="flex flex-col items-center text-center ml-4 bg-purple-50 w-full h-full">
+            <div className="flex flex-col items-center text-center ml-4 bg-purple-50 -translate-x-5 w-full h-full">
                 <a className="text-xl font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </a>

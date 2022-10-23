@@ -3,6 +3,9 @@ import Hero from "./components/Hero";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import FAQ from "./components/FAQ";
+import Learn from "../public/learn.png";
+import Person from "../public/person.png";
+import Image from "next/image";
 
 
 
@@ -93,7 +96,7 @@ export default function Home() {
                        science, and more.</p>
                </div>
                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                   <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                   <Image className="object-cover object-center rounded" width="720px" height="600px" alt="hero" src={Learn} />
                </div>
            </div>
        </section>
@@ -114,7 +117,7 @@ export default function Home() {
                            </svg>
                            <p className="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
                            <a class="inline-flex items-center">
-                               <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                               <Image alt="testimonial" src={Person} width="50px" height="50px" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
             <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
               <span className="text-gray-500 text-sm">UI DEVELOPER</span>
@@ -129,7 +132,7 @@ export default function Home() {
                            </svg>
                            <p className="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
                            <a className="inline-flex items-center">
-                               <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                               <Image alt="testimonial" src={Person} width="50px" height="50px" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
             <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-gray-900">Alper Kamu</span>
               <span className="text-gray-500 text-sm">DESIGNER</span>
@@ -151,7 +154,8 @@ export default function Home() {
                                everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny
                                pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
                            <a className="inline-flex items-center">
-                               <img alt="testimonial" src="https://dummyimage.com/106x106"
+                               <Image alt="testimonial" src={Person}
+                                      width="50px" height="50px"
                                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
                                <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
@@ -171,7 +175,8 @@ export default function Home() {
                                everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny
                                pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
                            <a className="inline-flex items-center">
-                               <img alt="testimonial" src="https://dummyimage.com/107x107"
+                               <Image alt="testimonial" src={Person}
+                                      width="50px" height="50px"
                                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
                                <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-gray-900">Alper Kamu</span>
