@@ -2,7 +2,7 @@
 
 export default function Hero() {
     return (
-        <div className="flex flex-col items-center justify-center text-center space-y-4 mx-10 my-32 py-10">
+        <div className="flex flex-col items-center justify-center text-center space-y-4 mx-10 lg:mx-20 my-32 py-10">
             <h1 className="text-4xl text-purple-600 ">Lorem Ipsum</h1>
             <p className="text-xl lg:w-1/2 mx-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Platea dolor, sodales odio habitant sodales tortor.

@@ -33,10 +33,10 @@ export default function Navbar() {
 
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter bg-white px-4 py-4 h-20 items-center mx-10 mt-5">
+        <nav className="flex filter bg-white px-4 py-4 h-20 items-center mx-10 mt-5 space-x-3">
             <MobileNav open={open} setOpen={setOpen}/>
-            <div className="w-3/12 flex items-center">
-                <Image src={Logo} width={ "150px"} height={"50px"}/>
+            <div className="lg:w-3/12 md:w-3/12 w-1/2 flex items-center justify-items-start">
+                <Image src={Logo} width={ "150px"} height={"50px"} className="image"/>
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
@@ -49,7 +49,7 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
 
-                <div className="hidden md:flex space-x-24 items-center justify-center">
+                <div className="hidden md:flex space-x-10 lg:space-x-24 items-center justify-center">
                     <a href="#" className="text-base text-gray-900 hover:text-purple-600">
                         Home
                     </a>

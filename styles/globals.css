@@ -7,8 +7,19 @@
 height: 500px;
 }
 
+body {
+
+}
+
 @media screen and (max-width: 767px) {
     .aboutsec {
        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 752px) {
+    .image {
+        width: 200px;
+        height: 100px;
     }
 }
