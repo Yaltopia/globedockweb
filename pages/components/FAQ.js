@@ -98,7 +98,7 @@ export default function FAQ() {
                     </div>
                     {isOpenedS && (
                         <p className="text-base text-left text-gray-400">
-                            Created by experts, Globe Dock Academy's library of trusted, standards-aligned practice and lessons covers math K-12 through early college, grammar, science, history, AP®, SAT®, and more. It's all free for learners and teachers.
+                            Created by experts, Globe Dock Academy library of trusted, standards-aligned practice and lessons covers math K-12 through early college, grammar, science, history, AP®, SAT®, and more. It's all free for learners and teachers.
                         </p>
                     )}
                 </div>
