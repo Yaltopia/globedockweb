@@ -3,10 +3,10 @@
 export default function Hero() {
     return (
         <div className="flex flex-col items-center justify-center text-center space-y-4 mx-10 lg:mx-20 my-32 py-10">
-            <h1 className="text-4xl text-purple-600 ">Lorem Ipsum</h1>
-            <p className="text-xl lg:w-1/2 mx-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Platea dolor, sodales odio habitant sodales tortor.
-                Eu facilisi gravida arcu, porttitor </p>
+            <h1 className="text-4xl text-purple-600 ">Let’s #EducateEthiopia Together</h1>
+            <p className="text-xl lg:w-1/2 mx-5">
+                GlobeDock Academy is a free online learning platform for Ethiopian elementary and high school students.
+            </p>
 
             <div className="flex lg:flex-row md:flex-row flex-col mt-10 space-x-3 text-center items-center space-y-5 lg:space-y-0 md:space-y-0">
                 <button className="bg-gray-100 text-center text-gray-900 py-3 px-16 rounded">Login</button>

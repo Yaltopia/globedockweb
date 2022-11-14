@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Image from "next/image";
-import Logo from "/public/GlobDock.png";
+import Logo from "/public/GlobeDock.jpeg";
 import Link from "next/link";
 
 

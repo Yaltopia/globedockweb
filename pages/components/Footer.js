@@ -1,4 +1,4 @@
-import Logo from '/public/GlobDock.png';
+import Logo from '/public/GlobeDock.jpeg';
 import Image from "next/image";
 
 export default function Footer() {
