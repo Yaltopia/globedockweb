@@ -74,7 +74,7 @@ export default function Home() {
                        science, and more.</p>
                </div>
                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                   <Image className="object-cover object-center rounded" width="820px" height="500px" alt="hero" src={Learn} />
+                   <Image className="object-cover object-center rounded" width="1920px" height="1080px" alt="hero" src={Learn} />
                </div>
            </div>
        </section>
