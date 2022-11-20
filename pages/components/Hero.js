@@ -9,9 +9,9 @@ export default function Hero() {
             </p>
 
             <div className="flex lg:flex-row md:flex-row flex-col mt-10 space-x-3 text-center items-center space-y-5 lg:space-y-0 md:space-y-0">
-                <a href="https://edu.globedockacademy.com/login/index.php" target="_blank" className="bg-gray-100 text-center text-gray-900 py-3 px-16 rounded">Login</a>
+                <a href="https://edu.globedockacademy.com/login/index.php"  className="bg-gray-100 text-center text-gray-900 py-3 px-16 rounded">Login</a>
                 <div className="flex flex-row items-center space-x-3">
-                    <a href="https://edu.globedockacademy.com/login/signup.php" target="_blank" className="text-purple-600">Sign Up</a>
+                    <a href="https://edu.globedockacademy.com/login/signup.php"  className="text-purple-600">Sign Up</a>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" className="w-5 h-5 text-purple-600">
                         <path stroke-linecap="round" stroke-linejoin="round"
