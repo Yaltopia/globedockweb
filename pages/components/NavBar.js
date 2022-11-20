@@ -36,7 +36,7 @@ export default function Navbar() {
         <nav className="flex filter bg-white px-4 py-4 h-20 items-center mx-20 mt-5 space-x-3">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="lg:w-3/12 md:w-3/12 w-1/2 flex items-center justify-items-start">
-                <Image src={Logo} width={ "150px"} height={"50px"} className="image"/>
+                <Image src={Logo} width={ "200px"} height={"80px"} className="image"/>
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
