@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Image from "next/image";
 import Logo from "/public/GlobeDock.jpeg";
-import Link from "next/link";
+
 
 
 
@@ -21,9 +21,9 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-normal my-4" href="#contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Contact Us
                 </a>
-                <button className="bg-gray-100 text-gray-900 py-3 px-10 text-xl font-normal my-4"  onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a href="https://edu.globedockacademy.com/login/index.php"  className="bg-gray-100 text-gray-900 py-3 px-10 text-xl font-normal my-4"  onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Login
-                </button>
+                </a>
             </div>
         </div>
     )
@@ -36,7 +36,7 @@ export default function Navbar() {
         <nav className="flex filter bg-white px-4 py-4 h-20 items-center mx-20 mt-5 space-x-3">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="lg:w-3/12 md:w-3/12 w-1/2 flex items-center justify-items-start">
-                <Image src={Logo} width={ "200px"} height={"80px"} className="image"/>
+                <Image src={Logo} width={ "220px"} height={"70px"} alt="logo" className="image"/>
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
@@ -60,9 +60,9 @@ export default function Navbar() {
                         Contact Us
                     </a>
 
-                    <button className="bg-gray-100 hover:bg-gray-400 rounded text-gray-900 py-3 px-20 text-base font-normal ml-20">
+                    <a href="https://edu.globedockacademy.com/login/index.php"  className="bg-gray-100 hover:bg-gray-400 rounded text-gray-900 py-3 px-20 text-base font-normal ml-20">
                             Login
-                    </button>
+                    </a>
 
                 </div>
             </div>

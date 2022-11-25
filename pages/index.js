@@ -2,15 +2,19 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import FAQ from "./components/FAQ";
-import Learn from "../public/Learn.webp";
+import Learn from "../public/image.jpg";
 import Person from "../public/person.png";
 import Image from "next/image";
+
 
 
 
 export default function Home() {
   return (
    < >
+
+
+
     <NavBar />
 
        {/*Hero Section*/}

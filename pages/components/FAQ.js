@@ -21,7 +21,6 @@ export default function FAQ() {
     return (
         <div className="mt-10 lg:mx-20" id="faq">
             <div className="text-center mt-10m space-y-2">
-                <p className="text-sm">FAQ</p>
                 <h1 className="text-2xl lg:text-4xl text-purple-600">Frequently Asked Question</h1>
                 <p className="text-base font-light">Do you have questions ? We are here to help!</p>
             </div>
