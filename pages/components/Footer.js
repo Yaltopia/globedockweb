@@ -7,7 +7,7 @@ export default function Footer() {
             <footer className="bg-white dark:bg-gray-900">
                 <div className="py-6 px-4 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2022 <a
-            href="https://flowbite.com/">GlobeDock Academy™</a>. All Rights Reserved.
+            href="https://globedockacademy.com/">GlobeDock Academy™</a>. All Rights Reserved.
         </span>
                     <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
                         <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
