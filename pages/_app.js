@@ -6,8 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
       <>
       <Head>
-        <link rel="shortcut icon" href="/public/favicon.ico" />
-        <title>Globe Dock Academy</title>
+          <title>Globe Dock Academy</title>
       </Head>
       <Component {...pageProps} />
       </>
